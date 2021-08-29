@@ -34,7 +34,7 @@ public class WhatsappController implements WhatsappControllerinterface {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			//step 2 create database connection
-			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/infosys_db","root","rajesh");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/infosys_db","root","kushwanth..1");
 			//step3
 			//create query
 			//if dynamic query then PreparedStatement
